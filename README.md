@@ -25,7 +25,10 @@ Boolean value that indicates that the test run and coverage was successful.
       - name: Checkout action
         uses: actions/checkout@v2
       - name: Django Coverage action
-        uses: actions/python-django-coverage-gitHub-action@0.9
+        uses: actions/python-django-coverage-gitHub-action-unmanagedmodels@0.1
         with:
           django-app: 'sample_app'
           minimum-coverage: '86'
+
+
+## This a slightly edited version of actions/python-django-coverage-gitHub-action@0.9
