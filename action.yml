@@ -1,4 +1,4 @@
-name: Python Django Coverage GitHub Action
+name: Python Django Coverage GitHub Action Unmanaged
 inputs:
   django-app:
     description: "Application"
